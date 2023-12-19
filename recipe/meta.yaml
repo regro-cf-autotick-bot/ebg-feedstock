@@ -43,8 +43,7 @@ test:
 about:
   home: https://github.com/wiegertj/EBG
   summary: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS)'
-  description: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS) of phylogenetic trees in python.
-    It uses RAxML-NG phylogenies as input and predicts the SBS values of all non-trivial branches.'
+  description: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS) of phylogenetic trees in python. It uses RAxML-NG phylogenies as input and predicts the SBS values of all non-trivial branches.'
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
