@@ -1,5 +1,5 @@
 {% set name = "ebg" %}
-{% set version = "0.11" %}
+{% set version = "0.0.2" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 7b791a7801599dc748d4ca9882157f28da34d1e5fc8873c2b6d7e4d5d19d93e4
+  sha256: 71742ed106af0d6d29a7f22a972e9fcd0eb52135e18196c3b1503c6d441e2e0c
 
 build:
   number: 0
