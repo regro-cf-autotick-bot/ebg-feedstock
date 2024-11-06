@@ -1,5 +1,5 @@
 {% set name = "ebg" %}
-{% set version = "0.12.0" %}
+{% set version = "0.12.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: b80db33cf33b6db5eda3f8c95c6eda1817745451070cc45d08d70cd0246d836c
+  sha256: b08359eb164527c72943d333d907e3f9ae5cd11ea1ae39a8bdc555f4c1aeb2b0
 
 build:
   number: 0
@@ -43,8 +43,7 @@ test:
 about:
   home: https://github.com/wiegertj/EBG
   summary: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS)'
-  description: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS) of phylogenetic trees in python.
-    It uses RAxML-NG phylogenies as input and predicts the SBS values of all non-trivial branches.'
+  description: 'EBG is a fast predictor for the standard non-parametric Felsenstein Bootstrap support (SBS) of phylogenetic trees in python. It uses RAxML-NG phylogenies as input and predicts the SBS values of all non-trivial branches.'
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
