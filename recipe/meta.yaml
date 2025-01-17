@@ -10,7 +10,7 @@ source:
   sha256: b08359eb164527c72943d333d907e3f9ae5cd11ea1ae39a8bdc555f4c1aeb2b0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - ebg = EBG.__main__:main
@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
     - biopython
@@ -28,10 +28,12 @@ requirements:
     - networkx
     - numpy
     - pandas
-    - python >=3.6
+    - python >={{ python_min }}
     - scipy
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - EBG
     - EBG.Features
